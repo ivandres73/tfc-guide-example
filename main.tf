@@ -46,7 +46,7 @@ resource "aws_security_group" "example" {
   }
 
   tags {
-    "Hello" = "World"
+    Hello = "World"
   }
 }
 
