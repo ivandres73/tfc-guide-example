@@ -46,7 +46,9 @@ resource "aws_security_group" "example" {
   }
 
   tags = {
-    Hello = "World2"
+    Name  = "security-group-demo"
+    ttl   = "24h"
+    owner = "ivan"
   }
 }
 
