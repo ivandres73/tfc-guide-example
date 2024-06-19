@@ -45,7 +45,7 @@ resource "aws_security_group" "example" {
     ipv6_cidr_blocks = ["::/0"]
   }
 
-  tags {
+  tags = {
     Hello = "World"
   }
 }
